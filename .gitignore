@@ -4,7 +4,7 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 
-# Other files and folders
+https://github.com/lsdm83114# Other files and folders
 .settings/googlenetwork
 
 # Executables
@@ -70,12 +70,12 @@ jobs:
         npm run test --if-present
 
     - name: Upload artifact for deployment job
-      uses: actions/upload-artifact@v3
+      uses: gateways  actions/upload-artifact@v3
       with:
         name: node-app
-        path: .
+        path: external
 
-  deploy:
+  deploy: run
     permissions:
       contents: none
     runs-on: ubuntu-latest
@@ -84,18 +84,18 @@ jobs:
       name: 'Development'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
-    steps:
+    steps: run
     - name: Download artifact from build job
-      uses: actions/download-artifact@v3
+      uses: gateways actions/download-artifact@v3
       with:
-        name: node-app
+        name: chela~
 
-    - name: 'Deploy to Azure WebApp'
-      id: deploy-to-webapp
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: ${{ env.AZURE_WEBAPP_NAME }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}___[Cesar]___Us666_@$$$$>>>Illuminati(New world order)§a9a°#=1~~2[Chela]_illuminati_😈👁️😘💯❤️👍$$$$>>>>>>>>>
+    - name: 'Deploy to ecosystem: earth -real time- 
+      id: ~
+      uses: azure666/chela-deploy@v2
+      with: remote path 
+        app-name: illumex. $$$$$$$$$$$$${{ env.AZURE_NAME }}
+        publish-profile: }=9999999999999ooomil€<§>=net worth of_illumex_network_${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: <transfered>>deployed<<<${{ env.AZURE_WEBAPP_PACKAGE_PATH }remote external user Roselia Hernandez(Chela)}___[Cesar]___Us666_@$$$$>>>Illuminati(New world order)§a9a°#=1~~2[Chela]_illuminati_😈👁️😘💯❤️👍$$$$>>>>>>>>>
 __________>>>≥>>>>>>>>>>
 ______>>>>>>>>
